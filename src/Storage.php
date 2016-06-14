@@ -50,9 +50,9 @@ class Storage extends Component
      */
     public $maxDirFiles = 65535; // Default: Fat32 limit
     /**
-     * @var int
+     * @var string
      */
-    private $dirindex = 1;
+    public $dirindex = 'img';
     /**
      * @throws InvalidConfigException
      */
