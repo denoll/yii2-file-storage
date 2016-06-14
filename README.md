@@ -1,4 +1,3 @@
-[![Packagist](https://img.shields.io/packagist/dt/trntv/yii2-file-kit.svg)]()
 [![Dependency Status](https://www.versioneye.com/php/trntv:yii2-file-kit/badge.svg)](https://www.versioneye.com/php/trntv:yii2-file-kit/2.0.0)
 
 
