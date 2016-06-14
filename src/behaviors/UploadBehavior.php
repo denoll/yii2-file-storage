@@ -95,6 +95,7 @@ class UploadBehavior extends Behavior
      * @var \denoll\filekit\Storage
      */
     protected $storage;
+
     /**
      * @return array
      */
