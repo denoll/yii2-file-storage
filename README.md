@@ -1,7 +1,7 @@
 [![Dependency Status](https://www.versioneye.com/php/trntv:yii2-file-kit/badge.svg)](https://www.versioneye.com/php/trntv:yii2-file-kit/2.0.0)
 
 
-!!! THis pack creating Eugene Terentev https://github.com/trntv/yii2-file-kit.git. And I do not pretend to any copyrights.
+!!! This pack creating Eugene Terentev https://github.com/trntv/yii2-file-kit.git. And I do not pretend to any copyrights.
 This package has been allocated separately only for their own needs !!!
 
 This pack is designed to automate routine processes of uploading files, their saving and storage.
