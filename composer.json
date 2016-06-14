@@ -1,0 +1,32 @@
+{
+    "name": "denoll/yii2-file-storage",
+    "description": "Yii2 file upload delete and storage",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "DENOLL",
+            "email": "denoll@denoll.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "yiisoft/yii2-jui": "^2.0.0",
+        "league/flysystem": "^1.0",
+        "bower-asset/blueimp-file-upload": "^9.7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5.0",
+        "creocoder/yii2-flysystem": "~0.8"
+    },
+    "autoload": {
+        "psr-4": { "denoll\\filekit\\": "src/" }
+    },
+    "extra":{
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
