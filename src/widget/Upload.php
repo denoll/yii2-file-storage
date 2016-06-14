@@ -3,7 +3,7 @@
  * Author: Eugine Terentev <eugine@terentev.net>
  */
 
-namespace trntv\filekit\widget;
+namespace denoll\filekit\widget;
 
 use Yii;
 use yii\base\InvalidParamException;
@@ -16,7 +16,7 @@ use yii\widgets\InputWidget;
 
 /**
  * Class Upload
- * @package trntv\filekit\widget
+ * @package denoll\filekit\widget
  */
 class Upload extends InputWidget
 {

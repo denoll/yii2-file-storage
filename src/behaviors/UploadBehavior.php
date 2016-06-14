@@ -1,7 +1,7 @@
 <?php
-namespace trntv\filekit\behaviors;
+namespace denoll\filekit\behaviors;
 
-use trntv\filekit\Storage;
+use denoll\filekit\Storage;
 use Yii;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
@@ -92,7 +92,7 @@ class UploadBehavior extends Behavior
      */
     protected $deletePaths;
     /**
-     * @var \trntv\filekit\Storage
+     * @var \denoll\filekit\Storage
      */
     protected $storage;
     /**
@@ -313,7 +313,7 @@ class UploadBehavior extends Behavior
     }
 
     /**
-     * @return \trntv\filekit\Storage
+     * @return \denoll\filekit\Storage
      * @throws \yii\base\InvalidConfigException
      */
     protected function getStorage()

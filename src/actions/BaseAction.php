@@ -1,13 +1,13 @@
 <?php
-namespace trntv\filekit\actions;
+namespace denoll\filekit\actions;
 
-use trntv\filekit\Storage;
+use denoll\filekit\Storage;
 use yii\base\Action;
 use yii\di\Instance;
 
 /**
  * Class BaseAction
- * @package trntv\filekit\actions
+ * @package denoll\filekit\actions
  * @author Eugene Terentev <eugene@terentev.net>
  */
 abstract class BaseAction extends Action
@@ -31,7 +31,7 @@ abstract class BaseAction extends Action
     public $allowChangeFilestorage = false;
 
     /**
-     * @return \trntv\filekit\Storage
+     * @return \denoll\filekit\Storage
      * @throws \yii\base\InvalidConfigException
      */
     protected function getFileStorage()

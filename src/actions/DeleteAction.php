@@ -6,7 +6,7 @@
  * Time: 1:20 PM
  */
 
-namespace trntv\filekit\actions;
+namespace denoll\filekit\actions;
 
 use yii\web\HttpException;
 
@@ -14,7 +14,7 @@ use yii\web\HttpException;
  * public function actions(){
  *   return [
  *           'upload'=>[
- *               'class'=>'trntv\filekit\actions\DeleteAction',
+ *               'class'=>'denoll\filekit\actions\DeleteAction',
  *           ]
  *       ];
  *   }
