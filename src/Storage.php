@@ -52,7 +52,7 @@ class Storage extends Component
     /**
      * @var string
      */
-    public $dirindex = 'img';
+    public $dirindex = 1;
     /**
      * @throws InvalidConfigException
      */
@@ -101,18 +101,17 @@ class Storage extends Component
     public function save($file, $preserveFileName = false, $overwrite = false, $config = [])
     {
         $fileObj = File::create($file);
-        $dirIndex = $this->getDirIndex();
         if ($preserveFileName === false) {
             do {
                 $filename = implode('.', [
                     Yii::$app->security->generateRandomString(),
                     $fileObj->getExtension()
                 ]);
-                $path = implode('/', [$dirIndex, $filename]);
+                $path = $filename;
             } while ($this->getFilesystem()->has($path));
         } else {
             $filename = $fileObj->getPathInfo('filename');
-            $path = implode('/', [$dirIndex, $filename]);
+            $path = $filename;
         }
 
         $this->beforeSave($fileObj->getPath(), $this->getFilesystem());
