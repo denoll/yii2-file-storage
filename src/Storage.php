@@ -48,7 +48,7 @@ class Storage extends Component
      * "-1" = unlimited
      * @var int
      */
-    public $maxDirFiles = 65535; // Default: Fat32 limit
+    public $maxDirFiles = 6000; // Default: Fat32 limit
     /**
      * @var string
      */
@@ -108,11 +108,11 @@ class Storage extends Component
                     Yii::$app->security->generateRandomString(),
                     $fileObj->getExtension()
                 ]);
-                $path = implode('-', [$dirIndex, $filename]);
+                $path = implode('/', [$dirIndex, $filename]);
             } while ($this->getFilesystem()->has($path));
         } else {
             $filename = $fileObj->getPathInfo('filename');
-            $path = implode('-', [$dirIndex, $filename]);
+            $path = implode('/', [$dirIndex, $filename]);
         }
 
         $this->beforeSave($fileObj->getPath(), $this->getFilesystem());
