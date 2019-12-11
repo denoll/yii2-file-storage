@@ -2,7 +2,7 @@
 
 use League\Flysystem\Filesystem;
 use denoll\filekit\filesystem\FilesystemBuilderInterface;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class AwsS3v3FlysystemBuilder
