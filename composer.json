@@ -1,5 +1,6 @@
 {
     "name": "denoll/yii2-file-storage",
+    "version": "1.0.1",
     "description": "Yii2 file upload delete and storage",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
