@@ -1,6 +1,5 @@
 {
     "name": "denoll/yii2-file-storage",
-    "version": "1.0.1",
     "description": "Yii2 file upload delete and storage",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
@@ -11,6 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/denoll/yii2-file-storage/issues?state=open",
+        "source": "https://github.com/denoll/yii2-file-storage"
+    },
     "require": {
         "yiisoft/yii2": "^2.0.9",
         "yiisoft/yii2-jui": "^2.0.0",

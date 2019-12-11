@@ -1,5 +1,5 @@
-[![Dependency Status](https://www.versioneye.com/php/trntv:yii2-file-kit/badge.svg)](https://www.versioneye.com/php/trntv:yii2-file-kit/2.0.0)
-
+[![Latest Stable Version](https://poser.pugx.org/denoll/yii2-file-storage/v/stable)](https://packagist.org/packages/denoll/yii2-file-storage)
+[![Latest Unstable Version](https://poser.pugx.org/denoll/yii2-file-storage/v/unstable)](https://packagist.org/packages/denoll/yii2-file-storage)
 
 !!! This package creating Eugene Terentev https://github.com/trntv/yii2-file-kit.git. And I do not pretend to any copyrights.
 This package has been allocated separately only for their own needs !!!
